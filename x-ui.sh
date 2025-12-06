@@ -166,7 +166,7 @@ uninstall() {
         systemctl reset-failed
     fi
 
-    rm /etc/x-ui/ -rf
+    rm /data/ -rf
     rm /usr/local/x-ui/ -rf
 
     echo ""
